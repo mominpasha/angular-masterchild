@@ -1,4 +1,5 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<h2>Master Page</h2>
+<input type="range" [(ngModel)]="points" min="0" max="5" step="0.5">
+{{points}}
+<hr>
+<app-star-rating></app-star-rating>
